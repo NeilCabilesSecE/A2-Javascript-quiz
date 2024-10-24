@@ -1,0 +1,71 @@
+/* The general styles */
+body {
+    font-family: 'Poppin', sans-serif;
+    background-color: rgb(0, 0, 77); /* The bacgkround is Dark blue */
+    color: #ffffff; /* The text is White */
+    text-align: center; /* The text is Centered */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+main {
+    background-color: #00340066;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(12, 11, 11, 0.5);
+    display: inline-block;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 23px;
+    padding: 11px;
+    text-align: left;
+}
+
+legend {
+    font-size: 1.1em;
+    margin-bottom: 11px;
+}
+
+label {
+    margin-bottom: 7px;
+    display: block;
+}
+
+button {
+    background-color: rgb(54, 161, 197);
+    color: #fafafa;
+    border: none;
+    padding: 11px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* The correct and incorrect feedback */
+.correct {
+    background-color: #14ff76; /* Light green for correct answers */
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.incorrect {
+    background-color: #700e03; /* Dark Red for incorrect answers */
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
